@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(162, 158, 158);
+}
+
+.header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:rgb(0, 133, 174);
+    background-color: rgb(78, 80, 80);
+}
+
+ .header h1 {
+    color: rgb(0, 133, 174);
+    font-size: 40px;
+
+ }
+
+ .header h1 .Green {
+    color:black
+ }
+
+ .header nav {
+    float: right;
+    padding-top: 15px;
+    font-size: 24px;
+    margin-bottom: -500px;
+    padding-bottom: -500px;
+
+ }
+
+ .header nav ul {
+    list-style-type: none;
+
+ }
+
+ .header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    
+ }
+
+
+
+
