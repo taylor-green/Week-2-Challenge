@@ -1,49 +1,101 @@
+*{
+   box-sizing: border-box;
+}
+
 body {
     background-color: rgb(162, 158, 158);
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color:rgb(0, 133, 174);
     background-color: rgb(78, 80, 80);
 }
 
  .header h1 {
-    color: rgb(0, 133, 174);
+    color: rgb(154, 194, 239);
     font-size: 40px;
+    margin-left: 10px;
+    padding-bottom: 50px;
 
  }
 
  .header h1 .Green {
-    color:black
+    color:rgb(3, 7, 20)
+ }
+
+ .header img {
+   max-width: 100%;
+   height: auto;
  }
 
  .header nav {
+   flex-wrap: wrap;
     float: right;
-    padding-top: 15px;
+    padding-top: -20px;
     font-size: 24px;
-    margin-bottom: -500px;
-    padding-bottom: -500px;
+    margin-top: -85px;
+    padding-right: 15px;
 
  }
 
  .header nav ul {
     list-style-type: none;
-
+   
  }
 
  .header nav ul li {
     display: inline-block;
     margin-left: 25px;
     margin-bottom: 50px;
-    padding-bottom: 50px;
     
+       
  }
 
+ a {
+   color:rgb(154, 194, 239);
+   text-decoration: none;
+   
+ }
+
+ .hero{
+   height: 400px;
+   width: 100%;
+   margin-bottom: 25px;
+   background-image: url("../images/forest-service.jpeg");
+   background-size: cover;
+   background-position: center;
+ }
+
+ #about-me{
+   display:flex;
+   width: 100%;
+   justify-content: center;
+ }
+
+ #about-me h2 {
+   text-align: right;
+   width: 30%;
+   border-right: 5px solid #000;
+   margin-right: 10px;
+ }
+
+ .project-container {
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-between;
+ }
+ 
+ .project-frame{
+   width: 47%;
+
+ }
+ .project-frame img {
+   width: 100%;
+
+ }
 
 
 
