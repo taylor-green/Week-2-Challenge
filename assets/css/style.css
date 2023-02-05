@@ -73,15 +73,18 @@ body {
  }
 
  #about-me{
+   display: flex;
    font-family: serif;
    color:rgb(3, 7, 20);
-   display:flex;
    width: 100%;
-   justify-content: center;
+   justify-content: left;
  }
 
  #about-me h2 {
+   display: flex;
+   font-size: 33px;
    font-family: serif;
+   flex-wrap: wrap;
    color:rgb(3, 7, 20);
    text-align: right;
    width: 30%;
@@ -89,8 +92,14 @@ body {
    margin-right: 10px;
    padding: 10px;
  }
-  
 
+ #about-me p{
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 5px;
+   color: rgb(3, 7, 20);
+ }
+
+  
  .project img {
    border: 3px solid  rgb(3, 7, 20);
    width: 40%;
@@ -106,14 +115,21 @@ body {
    text-align: center;
    border-style: solid;
    border-width: px;
+   justify-content: center;
  }
 
  .project header{
-   font-size: 20px;
+   font-family: serif;
+   font-size: 23px;
    padding: 20px;
   color: #fff;
   background:rgb(4, 72, 127)
 
+ }
+
+ .project p {
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 10px;
  }
  
 
@@ -126,6 +142,7 @@ body {
  }
 
  #my-work h2 {
+   font-size: 33px;
    font-family: serif;
    color:rgb(3, 7, 20);
    display: flex;
@@ -138,8 +155,29 @@ body {
 
  }
 
+
+.container{
+   position: relative;
+}
+
+.text-block{
+   position:absolute;
+   bottom: 20px;
+   right: 425px;
+   padding-left: px;
+   background-color: rgb(111, 110, 110);
+   color: white;
+
+}
+  
+
  .section-content{
    display: flex;
+ }
+
+ #contact-me{
+   display: flex;
+   flex-wrap: wrap;
  }
 
  
