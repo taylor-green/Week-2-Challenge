@@ -27,8 +27,7 @@ Wolf image: https://shootingsportsman.com/crying-wolf/
 
 ## Mock-Up
 
-The following image shows the web application's appearance and functionality:
-
+The following link takes you to webpage.
 
 
 
